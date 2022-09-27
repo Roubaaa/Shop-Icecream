@@ -1,0 +1,43 @@
+body{
+
+    background: linear-gradient(#ec80f0, #a8aeee,rgb(196, 161, 161));
+    padding: 150px;
+    background-size: cover;
+     }
+
+.menu-title{ 
+    font-size:50px;
+    font-family: sans-serif;
+    letter-spacing: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+h4{
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    background-color:#7c82bd ;
+    text-align: center;
+    width:100%;
+   
+    
+}
+li{
+    color:#545eb8;
+    font-weight: bolder;
+    line-height:  25px;
+}
+.container-2 {
+ display:flex;
+ justify-content:space-between;
+ flex-direction: column;
+
+}
+
+.container-1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
