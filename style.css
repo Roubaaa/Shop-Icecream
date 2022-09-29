@@ -1,6 +1,7 @@
 .thirdpart{
     line-height: 1.7;
-    font-size:20px;}
+    font-size:20px;
+    text-align: center;}
 .container {
 
     max-width: 1140px;
@@ -145,6 +146,7 @@
     font-weight: lighter;
     margin-top: -40px;
     margin-bottom: -40px;
+
 }
 
 
