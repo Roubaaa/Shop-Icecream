@@ -1,7 +1,96 @@
+
+.navbarsection{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(#D0EBF0,#F39DCB,#E883F3,#BFF0ED);;
+    
+    
+}
+.logo{
+
+    display: flex;
+    flex-direction: row;
+    width:100px;
+    height: 100px;
+    margin-left: 0px;
+    padding-right: 0px;
+    border-right: 1px solid rgba(27, 26, 26, 0.5);;
+  
+}
+
+.navbar{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 100px;
+    width:auto;
+    border-bottom: 2px solid rgba(27, 26, 26, 0.5);
+    box-shadow: -4px -3px 45px 21px rgba(99, 96, 96, 0.35);
+    
+}
+
+.mylist, .listitem{
+    flex-grow: 5;
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+  
+
+}
+
+.rightnav{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    margin-right: 50px;
+    padding: 10px;
+    border-left: 1px solid rgba(27, 26, 26, 0.5); ;
+    
+}
+.bag{
+
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding-left: 20px;
+}
+.moto{
+   display: flex;
+   flex-direction: column;
+   float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.a{
+    
+    width: 300px;
+    height: 4px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+
 .main-1{
 
-    background: linear-gradient(#ec80f0, #a8aeee,white);
-    padding: 150px;
+    background: linear-gradient( #BFF0ED, #E883F3,#F39DCB,white);
+    margin: 0px;
+    padding: 100px;
     background-size: cover;
     
   
@@ -11,19 +100,19 @@
     font-size:50px;
     font-family: sans-serif;
     letter-spacing: 1rem;
-    color: rgb(255, 255, 255);
+    color: black;
     margin-bottom: 1px;
    
 
 }
 #h4-main-1{
     line-height: 0;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 #Menu {
     font-family: sans-serif;
-    color: #5760c5;
+    color: #455857;
     font-weight:bolder;
     background-color: #ec80f0;
     border-color:#ec80f0 ;
